@@ -20,18 +20,8 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            <Link
-              to="/"
-              className="text-white font-bold text-xl hover:text-gray-300 transition-colors"
-            >
-              Logo
-            </Link>
-          </div>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          {/* Desktop Navigation - centered */}
+          <nav className="hidden md:flex items-center space-x-8 mx-auto">
             {navigationItems.map((item) => (
               <Link
                 key={item.name}
@@ -54,28 +44,8 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Right side icons */}
-          <div className="hidden md:flex items-center space-x-4">
-            <Button
-              variant="ghost"
-              size="icon"
-              className="text-gray-300 hover:text-white hover:bg-white/10 transition-colors"
-            >
-              <Search className="h-5 w-5" />
-              <span className="sr-only">Search</span>
-            </Button>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="text-gray-300 hover:text-white hover:bg-white/10 transition-colors"
-            >
-              <Globe className="h-5 w-5" />
-              <span className="sr-only">Language</span>
-            </Button>
-          </div>
-
-          {/* Mobile menu button */}
-          <div className="md:hidden">
+          {/* Hamburger menu button - always in top right */}
+          <div className="ml-auto">
             <Button
               variant="ghost"
               size="icon"
