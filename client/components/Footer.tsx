@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Linkedin, Youtube, Twitter } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export default function Footer() {
   return (
