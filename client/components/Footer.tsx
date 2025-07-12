@@ -6,15 +6,19 @@ export default function Footer() {
     <footer className="bg-black text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Company Description */}
-          <div className="md:col-span-1">
-            <p className="text-gray-300 text-sm leading-relaxed">
-              Top IT Consulting Delivering Custom Innovation Solutions
-            </p>
-          </div>
+          {/* Empty space for alignment */}
+          <div className="md:col-span-1"></div>
 
           {/* About us */}
-          <div>
+          <div className="relative">
+            {/* Company Description positioned to align with Industries/Insights */}
+            <div className="absolute -left-8 md:-left-16 lg:-left-24 top-16 md:top-20">
+              <p className="text-gray-300 text-sm leading-relaxed whitespace-nowrap">
+                Top IT Consulting Delivering
+                <br />
+                Custom Innovation Solutions
+              </p>
+            </div>
             <h3 className="text-white font-medium mb-6">About us</h3>
             <ul className="space-y-3">
               <li>
