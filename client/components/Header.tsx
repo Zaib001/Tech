@@ -44,8 +44,24 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Hamburger menu button - always in top right */}
-          <div className="ml-auto">
+          {/* Right side icons - search, web, and hamburger */}
+          <div className="ml-auto flex items-center space-x-4">
+            <Button
+              variant="ghost"
+              size="icon"
+              className="text-gray-300 hover:text-white hover:bg-white/10 transition-colors"
+            >
+              <Search className="h-5 w-5" />
+              <span className="sr-only">Search</span>
+            </Button>
+            <Button
+              variant="ghost"
+              size="icon"
+              className="text-gray-300 hover:text-white hover:bg-white/10 transition-colors"
+            >
+              <Globe className="h-5 w-5" />
+              <span className="sr-only">Language</span>
+            </Button>
             <Button
               variant="ghost"
               size="icon"
