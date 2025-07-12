@@ -25,16 +25,7 @@ const App = () => (
           <main className="flex-1">
             <Routes>
               <Route path="/" element={<Index />} />
-              <Route
-                path="/company"
-                element={
-                  <div className="pt-20 min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white flex items-center justify-center">
-                    <h1 className="text-4xl font-bold">
-                      Company Page - Coming Soon
-                    </h1>
-                  </div>
-                }
-              />
+              <Route path="/company" element={<Company />} />
               <Route
                 path="/capabilities"
                 element={
