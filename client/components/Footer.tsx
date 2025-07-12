@@ -174,9 +174,9 @@ export default function Footer() {
       {/* Copyright - Full Width Border */}
       <div className="border-t border-gray-800 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <p className="text-center text-gray-400 text-sm">
+          <h2 className="text-white font-medium mb-6 text-center">
             2024 HighPoint Information Technology
-          </p>
+          </h2>
         </div>
       </div>
     </footer>
