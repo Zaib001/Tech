@@ -59,9 +59,12 @@ export default function Footer() {
                 >
                   Careers
                 </Link>
-                <span className="bg-blue-600 text-white text-xs px-2 py-1 rounded">
+                <Button
+                  size="sm"
+                  className="bg-blue-600 hover:bg-blue-700 text-white text-xs px-2 py-1 h-auto rounded"
+                >
                   We're hiring
-                </span>
+                </Button>
               </li>
             </ul>
           </div>
