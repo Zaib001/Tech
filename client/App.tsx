@@ -19,62 +19,67 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route
-            path="/company"
-            element={
-              <div className="pt-20 min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white flex items-center justify-center">
-                <h1 className="text-4xl font-bold">
-                  Company Page - Coming Soon
-                </h1>
-              </div>
-            }
-          />
-          <Route
-            path="/capabilities"
-            element={
-              <div className="pt-20 min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white flex items-center justify-center">
-                <h1 className="text-4xl font-bold">
-                  Capabilities Page - Coming Soon
-                </h1>
-              </div>
-            }
-          />
-          <Route
-            path="/industries"
-            element={
-              <div className="pt-20 min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white flex items-center justify-center">
-                <h1 className="text-4xl font-bold">
-                  Industries Page - Coming Soon
-                </h1>
-              </div>
-            }
-          />
-          <Route
-            path="/insight"
-            element={
-              <div className="pt-20 min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white flex items-center justify-center">
-                <h1 className="text-4xl font-bold">
-                  Insight Page - Coming Soon
-                </h1>
-              </div>
-            }
-          />
-          <Route
-            path="/career"
-            element={
-              <div className="pt-20 min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white flex items-center justify-center">
-                <h1 className="text-4xl font-bold">
-                  Career Page - Coming Soon
-                </h1>
-              </div>
-            }
-          />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <div className="flex flex-col min-h-screen">
+          <Header />
+          <main className="flex-1">
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route
+                path="/company"
+                element={
+                  <div className="pt-20 min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white flex items-center justify-center">
+                    <h1 className="text-4xl font-bold">
+                      Company Page - Coming Soon
+                    </h1>
+                  </div>
+                }
+              />
+              <Route
+                path="/capabilities"
+                element={
+                  <div className="pt-20 min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white flex items-center justify-center">
+                    <h1 className="text-4xl font-bold">
+                      Capabilities Page - Coming Soon
+                    </h1>
+                  </div>
+                }
+              />
+              <Route
+                path="/industries"
+                element={
+                  <div className="pt-20 min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white flex items-center justify-center">
+                    <h1 className="text-4xl font-bold">
+                      Industries Page - Coming Soon
+                    </h1>
+                  </div>
+                }
+              />
+              <Route
+                path="/insight"
+                element={
+                  <div className="pt-20 min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white flex items-center justify-center">
+                    <h1 className="text-4xl font-bold">
+                      Insight Page - Coming Soon
+                    </h1>
+                  </div>
+                }
+              />
+              <Route
+                path="/career"
+                element={
+                  <div className="pt-20 min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white flex items-center justify-center">
+                    <h1 className="text-4xl font-bold">
+                      Career Page - Coming Soon
+                    </h1>
+                  </div>
+                }
+              />
+              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
