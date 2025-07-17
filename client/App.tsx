@@ -1,5 +1,4 @@
 import "./global.css";
-
 import { Toaster } from "@/components/ui/toaster";
 import { createRoot } from "react-dom/client";
 import { Toaster as Sonner } from "@/components/ui/sonner";
@@ -8,9 +7,15 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Index from "./pages/Index";
+import Joinus from "./components/Joinus";
 import Company from "./pages/Company";
 import NotFound from "./pages/NotFound";
+import ApplicationMigration from "./pages/ApplicationMigration";
+import ApplicationDevelopment from "./pages/ApplicationDevelopment";
+import ApplicationTransformation from "./pages/ApplicationTransformation";
+import ApplicationIntegration from "./pages/Applicationintegration";
+import CloudOperation from "./pages/CloudOperation";
+import CloudMigration from "./pages/CloudMigration";
 
 const queryClient = new QueryClient();
 
@@ -24,8 +29,13 @@ const App = () => (
           <Header />
           <main className="flex-1">
             <Routes>
-              <Route path="/" element={<Index />} />
-              <Route path="/company" element={<Company />} />
+              <Route path="/2" element={<ApplicationMigration />} />
+              <Route path="/3" element={<ApplicationDevelopment />} />
+              <Route path="/4" element={<ApplicationTransformation />} />
+              <Route path="/5" element={<ApplicationIntegration />} />
+              <Route path="/6" element={<CloudOperation />} />
+              <Route path="/7" element={<CloudMigration />} />
+              <Route path="/" element={<Company />} />
               <Route
                 path="/capabilities"
                 element={
@@ -70,6 +80,7 @@ const App = () => (
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
+          <Joinus />
           <Footer />
         </div>
       </BrowserRouter>

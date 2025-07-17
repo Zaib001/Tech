@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'], // This will override default `font-sans`
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
