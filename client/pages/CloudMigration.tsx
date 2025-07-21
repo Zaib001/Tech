@@ -30,40 +30,6 @@ import frame383 from "../Images/Pexels Photo by Pixabay.jpg"
 
 export default function CloudMigration() {
 
-    const services = [
-        {
-            icon: card1,
-            title: '24/7 Monitoring & Management',
-            description: 'Proactive performance tracking, real-time alerts, and issue remediation.',
-        },
-        {
-            icon: card2,
-            title: 'Cloud Cost Optimization',
-            description: 'Rightsizing resources, avoiding wastage, and maximizing ROI on cloud investments.',
-        },
-        {
-            icon: card3,
-            title: 'Security & Compliance Management',
-            description: 'Automated policies, risk mitigation, and adherence to regulatory frameworks.',
-        },
-        {
-            icon: card4,
-            title: 'Backup & Disaster Recovery',
-            description: 'Resilient architecture with automated backup, recovery, and failover mechanisms.',
-        },
-        {
-            icon: card5,
-            title: 'Infrastructure Automation',
-            description: 'IaC (Infrastructure as Code), CI/CD pipelines, and auto-scaling solutions.',
-        },
-        {
-            icon: card6,
-            title: 'Multi-cloud & Hybrid Cloud Support',
-            description: 'Unified operations across AWS, Azure, Google Cloud, and on-prem systems.',
-        },
-    ];
-
-
     return (
         <div className="min-h-screen flex flex-col bg-black">
             {/* Hero Section */}
@@ -78,17 +44,17 @@ export default function CloudMigration() {
                 <div className="relative z-10 pt-60 pb-20 px-4 sm:px-6 lg:px-8" style={{ marginTop: "100px" }}>
                     <div className="max-w-7xl mx-auto">
                         <div className="max-w-2xl">
-                            <h2 className="text-white text-4xl md:text-5xl lg:text-6xl font-normal mb-1">
+                            <h2 className="text-white text-[56px] md:text-5xl lg:text-6xl font-normal mb-1">
                                 <img
                                     src={cloud}
                                     alt="Company"
                                 />
                             </h2>
                             <br></br>
-                            <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-8">
+                            <h2 className="text-white text-[56px] md:text-4xl lg:text-5xl font-bold mb-8">
                                 Migration
                             </h2>
-                            <p className="text-white text-base md:text-lg leading-relaxed max-w-xl">
+                            <p className="text-white text-[2opx] md:text-lg leading-relaxed max-w-xl">
                                 HPIT delivers secure, seamless cloud migration <br></br> tailored for performance and built for the future.
                             </p>
                         </div>
@@ -100,10 +66,11 @@ export default function CloudMigration() {
                     {/* Left Text Content */}
                     <div className="space-y-6">
                         <div>
-                            <h2 className="text-[56px] font-extrabold mb-2">
-                                <span className="text-white">Move to the Cloud <br></br> with Confidence </span>
+                            <h2 className="text-[60px] font-extrabold mb-2">
+                                <span className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] bg-clip-text text-transparent">Move to the Cloud<br></br> with Confidence </span>
                             </h2>
                         </div>
+
 
                         <p className="text-gray-300 text-[18px] leading-relaxed" style={{ marginTop: "60px" }}>
                             At HPIT, we specialize in seamless, secure, and scalable cloud migration. Whether you're shifting legacy systems, optimizing for performance, or adopting a hybrid model, our experts ensure zero disruption and maximum long-term value.
@@ -128,11 +95,11 @@ export default function CloudMigration() {
                     </div>
 
                     {/* Right Image */}
-                    <div className="rounded-xl overflow-hidden" style={{ marginTop: "60px" }}>
+                    <div className="rounded-xl overflow-hidden" style={{ marginTop: "20px", marginLeft: "200px" }}>
                         <img
                             src={pix15}
                             alt="Team Discussion"
-                            className="w-full h-full object-cover rounded-l-sm"
+                            className="w-[447px] h-[325px] object-cover rounded-l-sm"
                         />
                     </div>
                 </div>
@@ -143,7 +110,7 @@ export default function CloudMigration() {
                     {/* Heading */}
                     <div className="p-10">
                         <h2 className="text-[48px] font-extrabold mb-6 leading-tight">
-                            Why <span className="text-transparent bg-gradient-to-r from-white to-purple-400 bg-clip-text">Cloud Migration</span> <br></br>Matters
+                            Why <span className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] bg-clip-text text-transparent">Cloud Migration</span> <br></br>Matters
                         </h2>
                         <p className="text-gray-400 text-[14px] leading-relaxed">
                             Modern business demands agility, speed, and reliability and legacy <br></br>infrastructure just can’t keep up. Cloud migration is no longer optional.<br></br> It’s the foundation for digital transformation.
@@ -185,12 +152,11 @@ export default function CloudMigration() {
                 <div className="max-w-7xl mx-auto px-4">
                     {/* Heading */}
                     <h2 className="text-6xl sm:text-[6xl] font-extrabold leading-tight text-white mb-10">
-                        Our Cloud Migration <br />
                         <span
-                            className="bg-gradient-to-r from-white to-purple-400 text-transparent bg-clip-text"
+                            className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] text-transparent bg-clip-text"
                             style={{ marginTop: "60px" }}
                         >
-                            Services
+                            Our Cloud Migration<br></br>  Services
                         </span>
                     </h2>
 
@@ -285,7 +251,7 @@ export default function CloudMigration() {
                     <div className="relative">
                         {/* Heading on top-left of image, 40px down */}
                         <h2 className="absolute top-[-180px] left-6 text-[48px] sm:text-5xl font-extrabold leading-tight z-10">
-                            Migration <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-400">Approaches</span><br />We Support
+                            Migration <span className="text-transparent bg-clip-text bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)]">Approaches</span><br />We Support
                         </h2>
 
                         {/* Image */}
@@ -331,7 +297,7 @@ export default function CloudMigration() {
                 {/* Heading Section */}
                 <div className="text-center mb-16">
                     <h2 className="text-4xl sm:text-[48px] font-extrabold">
-                        Our Cloud <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-400">Migration</span> Process
+                        <span className="text-transparent bg-clip-text bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)]"> Our Cloud Migration</span> Process
                     </h2>
                     <p className="text-gray-400 mt-4 text-[20px] max-w-3xl mx-auto">
                         From assessment to optimization a structured approach <br></br> for seamless, secure, and scalable migration.
@@ -352,10 +318,10 @@ export default function CloudMigration() {
                     </div>
 
                     {/* Arrow 1 - Down */}
-                    <img src={reverseArrow} alt="arrow" className="absolute left-[13%] top-[105px] w-[80px] h-[69px] hidden md:block" />
+                    <img src={reverseArrow} alt="arrow" className="absolute left-[10%] top-[200px] w-[80px] h-[69px] hidden md:block" />
 
                     {/* Step 2 - Down */}
-                    <div className="flex flex-col items-start mt-16">
+                    <div className="flex flex-col items-start mt-16" style={{marginTop:"160px"}}>
                         <img src={two} alt="Step 2" className="w-[64px] h-[64px] mb-4" />
                         <div>
                             <h4 className="font-semibold text-white text-[24px]">Plan</h4>
@@ -371,15 +337,15 @@ export default function CloudMigration() {
                         <img src={three} alt="Step 3" className="w-[64px] h-[64px] mb-4" />
                         <div>
                             <h4 className="font-semibold text-white text-[24px]">Migrate</h4>
-                            <p className="text-[16px] text-gray-400 mt-1">Execute with minimal disruption</p>
+                            <p className="text-[16px] text-gray-400 mt-1">Execute with minimal <br></br>disruption</p>
                         </div>
                     </div>
 
                     {/* Arrow 3 - Down */}
-                    <img src={reverseArrow} alt="arrow" className="absolute left-[53%] top-[105px] w-[80px] h-[69px] hidden md:block" />
+                    <img src={reverseArrow} alt="arrow" className="absolute left-[53%] top-[200px] w-[80px] h-[69px] hidden md:block" />
 
                     {/* Step 4 - Down */}
-                    <div className="flex flex-col items-start mt-16">
+                    <div className="flex flex-col items-start mt-16" style={{marginTop:"160px"}}>
                         <img src={four} alt="Step 4" className="w-[64px] h-[64px] mb-4" />
                         <div>
                             <h4 className="font-semibold text-white text-[24px]">Optimize</h4>
@@ -399,15 +365,12 @@ export default function CloudMigration() {
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
-            <div className="mx-auto w-[1296px] h-[564px] bg-black px-6 py-10 text-white">
+            <div className="mx-auto w-[1296px] h-[564px] bg-black px-6 py-10 text-white" style={{ marginTop: "80px", marginBottom: "120px" }}>
                 {/* Heading */}
                 <div className="text-center mb-10">
                     <h2 className="text-[40px] font-extrabold">
-                        Industries <span className="text-violet-400">We Serve</span>
+                        Industries <span className="bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)] text-transparent bg-clip-text ">We Serve</span>
                     </h2>
                     <p className="text-gray-400 text-lg mt-2 leading-snug">
                         Tailored Cloud Migration for <br /> Every Sector
@@ -415,7 +378,7 @@ export default function CloudMigration() {
                 </div>
 
                 {/* Image Card */}
-                <div className="relative rounded-2xl overflow-hidden shadow-lg w-full h-[360px]">
+                <div className="relative rounded-xl overflow-hidden shadow-lg w-full h-[360px] bg-gray-800 border border-gray-400">
                     <img
                         src={frame383} // Replace with your image path
                         alt="Industry Background"
@@ -424,7 +387,7 @@ export default function CloudMigration() {
 
                     {/* Text Overlay */}
                     <div className="absolute left-8 bottom-28 text-left max-w-[480px]">
-                        <h3 className="text-[32px] font-semibold">Manufacturing</h3>
+                        <h3 className="text-[32px] font-semibold text-white">Manufacturing</h3>
                         <p className="text-[16px] text-white mt-2 leading-relaxed">
                             Modernize ERP systems and supply chain tools to enable smart manufacturing, real-time analytics, and efficient production workflows on the cloud.
                         </p>
@@ -436,8 +399,8 @@ export default function CloudMigration() {
                             <button
                                 key={item}
                                 className={`px-5 py-2 rounded-full border text-sm font-medium transition ${item === "Manufacturing"
-                                        ? "border-violet-400 text-violet-400"
-                                        : "border-white text-white hover:bg-white hover:text-black"
+                                    ? "border-violet-400 text-violet-400"
+                                    : "border-white text-white hover:bg-white hover:text-black"
                                     }`}
                             >
                                 {item}
@@ -445,9 +408,9 @@ export default function CloudMigration() {
                         ))}
                     </div>
                 </div>
+
+
             </div>
-
-
             <ClientExperience></ClientExperience>
         </div>
     );

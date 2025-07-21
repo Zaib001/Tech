@@ -13,7 +13,9 @@ import astronaut from '../Images/Astronaut.jpg';
 import frame from '../svg/Frame75.svg';
 import g2m from '../svg/g2m.svg';
 import Group from '../svg/Group.svg';
+import Ellipse from "../svg/Ellipse 10.svg";
 import company from '../svg/Company.svg';
+import narrow from "../svg/Arrow 1.svg";
 
 export default function Company() {
   const [openIndex, setOpenIndex] = useState(1); // Default open is 1 (Mission)
@@ -34,13 +36,13 @@ export default function Company() {
         <div className="relative z-10 pt-60 pb-20 px-4 sm:px-6 lg:px-8" style={{ marginTop: "-10px" }}>
           <div className="max-w-7xl mx-auto">
             <div className="max-w-2xl">
-              <h2 className="text-white text-4xl md:text-5xl lg:text-6xl font-normal mb-1">
+              <h2 className="text-white text-[56px] md:text-5xl lg:text-6xl font-normal mb-1">
                 <img
                   src={company}
                   alt="Company"
                 />
               </h2>
-              <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-8">
+              <h2 className="text-white text-[56px] md:text-4xl lg:text-5xl font-bold mb-8">
                 Overview
               </h2>
               <p className="text-white text-base md:text-lg leading-relaxed max-w-xl">
@@ -57,16 +59,15 @@ export default function Company() {
           {/* Left Text Content */}
           <div className="space-y-6">
             <div>
-              <h2 className="text-5xl font-extrabold mb-2">
-                <span className="text-white">About</span>
-                <span className="text-purple-400"> Us</span>
+              <h2 className="text-[72px] font-extrabold mb-2">
+                <span className="bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)] bg-clip-text text-transparent">About Us</span>
               </h2>
-              <p className="text-gray-300 font-semibold">
+              <p className="text-gray-300  text-[18px] font-semibold">
                 Purpose-Driven Solutions. Trusted Partnerships.
               </p>
             </div>
 
-            <p className="text-gray-300 text-xl leading-relaxed" style={{ marginTop: "60px" }}>
+            <p className="text-gray-300 text-[18px] leading-relaxed" style={{ marginTop: "60px" }}>
               HPIT is a forward-focused IT consulting company committed to delivering secure,
               innovative, and mission-ready technology solutions across government and private
               sectors. Founded on the principles of integrity, excellence, and national service,
@@ -83,11 +84,11 @@ export default function Company() {
           </div>
 
           {/* Right Image */}
-          <div className="rounded-xl overflow-hidden" style={{ marginTop: "120px" }}>
+          <div className="rounded-xl overflow-hidden" style={{ marginTop: "120px", marginLeft: "60px" }}>
             <img
               src={journey2}
               alt="Team Discussion"
-              className="w-full h-full object-cover rounded-xl"
+              className="w-[537px] h-[357px] object-cover rounded-xl"
             />
           </div>
         </div>
@@ -96,9 +97,8 @@ export default function Company() {
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Title + Image */}
           <div>
-            <h2 className="text-4xl sm:text-5xl font-extrabold leading-tight mb-6">
-              A community driven<br />
-              <span className="bg-gradient-to-r from-white to-purple-400 text-transparent bg-clip-text">by growth.</span>
+            <h2 className="text-4xl sm:text-[56px] font-extrabold leading-tight mb-6">
+              <span className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] text-transparent bg-clip-text"> A community driven by growth.</span>
             </h2>
             <div className="rounded-3xl overflow-hidden mb-10">
               <img
@@ -112,7 +112,7 @@ export default function Company() {
 
           {/* Right Accordion */}
           <div className="space-y-6">
-            <p className="text-gray-300 text-lg">
+            <p className="text-gray-300 text-[24px]">
               Our community of reps are motivated, resilient and most of all, problem solvers.
             </p>
             <div style={{ marginTop: '65px' }}> {[
@@ -148,8 +148,8 @@ and achieve lasting success.`,
                   onClick={() => toggle(index)}
                 >
                   <div>
-                    <p className="text-sm text-white font-semibold mb-1">{item.title} :</p>
-                    <p className="text-white text-sm">{item.desc}</p>
+                    <p className="text-[16px] text-white font-semibold mb-1">{item.title} :</p>
+                    <p className="text-white text-[14px]">{item.desc}</p>
                   </div>
                   <span className="text-white">
                     {openIndex === index ? <X size={18} /> : <Plus size={18} />}
@@ -174,22 +174,21 @@ and achieve lasting success.`,
         {/* Main Parent Grid */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Section - Title + Content */}
-          <div className="flex flex-col h-full justify-between" style={{marginLeft:"40px"}}>
+          <div className="flex flex-col h-full justify-between" style={{ marginLeft: "40px" }}>
             {/* Top - Journey Heading */}
             <div>
               <h2 className="text-5xl font-extrabold mb-2" style={{ marginTop: '40px' }}>
-                <span className="text-white">Jour</span>
-                <span className="text-purple-400">ney</span>
+                <span className="bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)] bg-clip-text text-transparent">Journey</span>
               </h2>
-              <p className="text-gray-300 text-sm">Built on Vision. Driven by Impact.</p>
+              <p className="text-gray-300 text-[18px]">Built on Vision. Driven by Impact.</p>
             </div>
             {/* Middle - Vertically Centered Content */}
             <div className="flex-1 flex items-center" style={{ marginTop: '-140px' }}>
               <div>
-                <h3 className="text-xl font-semibold mb-2">
+                <h3 className="text-[24px] font-semibold mb-2">
                   <span className="text-white font-bold">2022 :</span> Expanding Capabilities
                 </h3>
-                <p className="text-gray-400 text-lg leading-relaxed max-w-xl">
+                <p className="text-gray-400 text-[16px] leading-relaxed max-w-xl">
                   This year marked a significant phase of growth and diversification. HPIT broadened its
                   portfolio to include services in cybersecurity, cloud transformation, data analytics, and
                   enterprise IT modernization. We formalized internal processes, upgraded our infrastructure,
@@ -216,7 +215,7 @@ and achieve lasting success.`,
             </div>
 
             {/* Image 2 - Full Size (2022) */}
-            <div className="relative rounded overflow-hidden" style={{marginLeft:"27px"}}>
+            <div className="relative rounded overflow-hidden" style={{ marginLeft: "27px" }}>
               <img
                 src={journey2}
                 alt="2022"
@@ -242,10 +241,9 @@ and achieve lasting success.`,
       </div>
       <div className="relative text-white px-4 sm:px-6 lg:px-20 py-16">
         {/* Heading */}
-        <div className="max-w-5xl text-left mb-16"  style={{marginLeft:"40px"}}>
+        <div className="max-w-5xl text-left mb-16" style={{ marginLeft: "40px" }}>
           <h2 className="text-4xl sm:text-5xl font-extrabold leading-tight">
-            A world-class <span className="bg-gradient-to-r from-white to-purple-400 text-transparent bg-clip-text">experience</span> that's easy<br />
-            to use & focused <span className="bg-gradient-to-r from-white to-purple-400 text-transparent bg-clip-text">on success.</span>
+            <span className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] text-transparent bg-clip-text">A world-class experience that's easy <br></br>to use & focused on success.</span>
           </h2>
         </div>
 
@@ -296,47 +294,46 @@ and achieve lasting success.`,
       </div>
       <div className="px-4 sm:px-8 lg:px-20 py-16 text-white">
         {/* Heading Section */}
-        <div className="max-w-4xl ml-0 text-left mb-16"  style={{marginLeft:"40px"}}>
-          <h2 className="text-4xl sm:text-5xl font-extrabold leading-tight mb-4">
-            Everything <br />
-            <span className="bg-gradient-to-r from-white to-purple-400 text-transparent bg-clip-text">from AI to XYZ</span>
+        <div className="max-w-4xl ml-0 text-left mb-16" style={{ marginLeft: "40px" }}>
+          <h2 className="text-4xl sm:text-[64px] font-extrabold leading-tight mb-4">
+            <span className="bg-[radial-gradient(254%_254%_at_50%_50%,_#8076F4_0%,_#FFFFFF_22.15%)] text-transparent bg-clip-text">Everything from AI to XYZ</span>
           </h2>
-          <p className="text-gray-300 text-base sm:text-lg">
+          <p className="text-gray-300 text-[24px] sm:text-lg">
             We deliver secure IT consulting, digital transformation, and data solutions<br />
             empowering organizations to modernize, perform, and grow with confidence.
           </p>
         </div>
         {/* Cards Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-72 max-w-6xl mx-auto" style={{ marginLeft: "30px" }}>
           {/* Card 1 */}
-          <div className="bg-[#1A1A1A] rounded-lg p-8 flex flex-col items-center text-center min-h-[320px]">
+          <div className="bg-[#1A1A1A] rounded-lg p-8 flex flex-col items-center text-center min-h-[320px] min-w-[320px]">
             <div className="text-pink-500 mb-6">
               <img src={g2m} alt="arrow" className="w-[36px] h-auto" />
             </div>
-            <h3 className="text-white font-semibold text-lg mb-3">Emerging Technology</h3>
-            <p className="text-gray-400 text-sm">
+            <h3 className="text-white font-semibold text-[20px] mb-3">Emerging Technology</h3>
+            <p className="text-gray-400 text-[16px]">
               We harness cutting-edge technologies like AI, cloud, and automation to drive innovation and future-ready solutions
             </p>
           </div>
 
           {/* Card 2 - Center Highlighted */}
-          <div className="bg-gradient-to-br from-purple-600 to-blue-500 rounded-lg p-8 flex flex-col items-center text-center min-h-[320px]">
+          <div className="bg-gradient-to-br from-purple-600 to-blue-500 rounded-lg p-8 flex flex-col items-center text-center min-h-[320px] min-w-[320px]">
             <div className="text-white mb-6">
               <img src={Group} alt="arrow" className="w-[36px] h-auto" />
             </div>
-            <h3 className="text-white font-semibold text-lg mb-3">Business Strategy</h3>
-            <p className="text-white text-sm">
+            <h3 className="text-white font-semibold text-[20px] mb-3">Business Strategy</h3>
+            <p className="text-white text-[16px]">
               We align technology with mission goals offering strategic guidance that delivers measurable impact and long-term value
             </p>
           </div>
 
           {/* Card 3 */}
-          <div className="bg-[#1A1A1A] rounded-lg p-8 flex flex-col items-center text-center min-h-[320px]">
+          <div className="bg-[#1A1A1A] rounded-lg p-8 flex flex-col items-center text-center min-h-[320px] min-w-[320px]">
             <div className="text-pink-500 mb-6">
               <img src={frame} alt="arrow" className="w-[36px] h-auto" />
             </div>
-            <h3 className="text-white font-semibold text-lg mb-3">Engineering & Integration</h3>
-            <p className="text-gray-400 text-sm">
+            <h3 className="text-white font-semibold text-[20px] mb-3">Engineering & Integration</h3>
+            <p className="text-gray-400 text-[16px]">
               We design, build, and seamlessly integrate secure, scalable systems that power critical operations and enhance performance
             </p>
           </div>
@@ -373,19 +370,21 @@ and achieve lasting success.`,
                 </p>
 
                 {/* Know more link */}
-                <a href="#" className="inline-flex items-center gap-2 text-white font-medium group" style={{ marginTop: "60px" }}>
-                  Know more
-                  <span className="w-8 h-8 rounded-full border border-red-500 flex items-center justify-center group-hover:bg-red-500 transition">
-                    <svg
-                      className="w-3 h-3 text-white transform rotate-0 group-hover:rotate-45 transition"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M5 12h14M12 5l7 7-7 7" />
-                    </svg>
-                  </span>
+                <a
+                  href="#"
+                  className="inline-flex items-center gap-2 text-white font-medium group"
+                  style={{ marginTop: "60px", fontSize: "16px" }}
+                >
+                  Get Started
+
+                  {/* Ellipse + Arrow */}
+                  <div className="relative w-[56px] h-[56px]" style={{ marginLeft: "-15px" }}>
+                    <img src={Ellipse} alt="ellipse" className="w-full h-full" />
+                    {/* Arrow centered inside ellipse */}
+                    <span className="absolute inset-0 flex items-center justify-center text-white text-xl" style={{ marginLeft: "-15px" }}>
+                      <img src={narrow} alt="arrow" className="w-[11.5px] h-[20px]" />
+                    </span>
+                  </div>
                 </a>
               </div>
 
@@ -426,10 +425,7 @@ and achieve lasting success.`,
           {/* Heading */}
           <div className="text-4xl sm:text-5xl font-extrabold leading-tight mb-12">
             <h1>
-              Our <span className="bg-gradient-to-r from-white to-purple-400 text-transparent bg-clip-text">network</span> consists
-            </h1>
-            <h1>
-              of only <span className="bg-gradient-to-r from-white to-purple-400 text-transparent bg-clip-text">the best.</span>
+               <span className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] text-transparent bg-clip-text">Our network consists <br></br>of only the best.</span> 
             </h1>
           </div>
 

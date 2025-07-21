@@ -14,7 +14,13 @@ import Thursday from "../svg/Thursday.svg";
 import Gener8 from "../svg/Gener8.svg";
 import MindfulChef from "../svg/MindfulChef.svg";
 import ClientExperience from "@/components/ClientExperience";
-
+import redline from "../svg/redline.svg";
+import redone from "../svg/redone.svg";
+import redtwo from "../svg/redtwo.svg";
+import redthree from "../svg/redthree.svg";
+import redfour from "../svg/redfour.svg";
+import redfive from "../svg/redfive.svg";
+import img from "../Images/Pexels Photo by Photo By_ Kaboompics.com.jpg";
 
 export default function ApplicationTransformation() {
     return (
@@ -31,19 +37,17 @@ export default function ApplicationTransformation() {
                 <div className="relative z-10 pt-60 pb-20 px-4 sm:px-6 lg:px-8" style={{ marginTop: "100px" }}>
                     <div className="max-w-7xl mx-auto">
                         <div className="max-w-2xl">
-                            <h2 className="text-white text-4xl md:text-5xl lg:text-6xl font-normal mb-1">
+                            <h2 className="text-white text-[58px] md:text-5xl lg:text-6xl font-normal mb-1">
                                 <img
                                     src={application}
                                     alt="Company"
                                 />
                             </h2>
-                            <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-8">
+                            <h2 className="text-white text-[58px] md:text-4xl lg:text-5xl font-bold mb-8">
                                 Transformation
                             </h2>
-                            <p className="text-white text-base md:text-lg leading-relaxed max-w-xl">
-                                At HIPT, we specialize in delivering customized technology and
-                                consulting services that help government and private sector
-                                organizations modernize, optimize, and grow with confidence.
+                            <p className="text-white text-[20px] md:text-lg leading-relaxed max-w-xl">
+                                Give your legacy systems new life with future ready architecture, design, and performance  all without<br></br> starting from scratch.
                             </p>
                         </div>
                     </div>
@@ -54,8 +58,8 @@ export default function ApplicationTransformation() {
                     {/* Left Text Content */}
                     <div className="space-y-6">
                         <div>
-                            <h2 className="text-6xl font-extrabold mb-2">
-                                <span className="text-white">More than a facelift it's a full upgrade.</span>
+                            <h2 className="text-[56px] font-extrabold mb-2">
+                                <span className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] bg-clip-text text-transparent">More than a facelift it's a full upgrade.</span>
                             </h2>
                         </div>
 
@@ -83,7 +87,7 @@ export default function ApplicationTransformation() {
                     </div>
 
                     {/* Right Image */}
-                    <div className="rounded-xl overflow-hidden">
+                    <div className="rounded-xl overflow-hidden" style={{ marginTop: "20px", marginLeft: "60px" }}>
                         <img
                             src={facelift}
                             alt="Team Discussion"
@@ -130,7 +134,7 @@ export default function ApplicationTransformation() {
                     {/* Heading Section */}
                     <div>
                         <h2 className="text-[48px] font-extrabold mb-2">
-                            <span className="text-white">What We Transform</span>
+                            <span className="bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)] bg-clip-text text-transparent">What We Transform</span>
                         </h2>
                     </div>
                     <p className="text-gray-300 text-[20px] leading-relaxed" style={{ marginTop: "10px", marginBottom: "-20px" }}>
@@ -164,172 +168,124 @@ export default function ApplicationTransformation() {
                     </div>
                 </div>
             </div>
-            <div className="text-white px-4 sm:px-8 lg:px-20 py-16 bg-black">
-                <div className="max-w-7xl mx-auto">
+            <div className="bg-black text-white px-6 py-16 lg:px-20">
+                <div className="flex flex-col items-center text-center mb-12">
+                    <h2 className="text-[48px] font-extrabold mb-4">
+                        <span className="bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)] bg-clip-text text-transparent">The HPIT Approach</span>
+                    </h2>
+                    <p className="text-gray-300 text-[20px] max-w-2xl">
+                        A clear, strategic path to modern, high <br></br>performing applications.
+                    </p>
+                </div>
+                <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center" style={{ marginTop: "80px" }}>
 
-                    {/* Centered Heading */}
-                    <div className="text-center">
-                        <h2 className="text-[48px] font-extrabold">
-                            The <span className="text-white">HPIT</span>{" "}
-                            <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">
-                                Approach
-                            </span>
-                        </h2>
-                        <p className="text-gray-300 mt-4 text-[20px]">
-                            A clear, strategic path to modern, high <br></br> performing applications.
-                        </p>
+                    {/* Left: Heading and Image */}
+                    <div>
+                        <img
+                            src={img}
+                            alt="Team Working"
+                            className="w-[497px] h-[601px] rounded-lg shadow-lg"
+                        />
                     </div>
 
-                    {/* Grid Layout */}
-                    <div className="mt-12 grid md:grid-cols-2 gap-12 items-center">
-                        {/* Left Image */}
-                        <div>
-                            <img
-                                src={ladysitting} // Replace with your actual image
-                                alt="Person with laptop"
-                                className="w-[497px] h-[601px] rounded-xl"
-                            />
-                        </div>
-
-                        {/* Right Content */}
-                        <div>
-                            <p className="text-white font-medium text-sm mb-6">
+                    {/* Right: Steps */}
+                    <div className="space-y-8 mt-2" style={{ marginTop: "-40px", marginLeft: "80px" }}>
+                        {/* Line SVG beside paragraph */}
+                        <div className="flex items-start gap-4">
+                            <img src={redline} alt="Vertical Line" className="w-4 h-[56px] mt-1" />
+                            <p className="text-[20px] text-gray-300 leading-relaxed">
                                 Our Proven 5-Step Process to Modernize Legacy Applications
                             </p>
-
-                            {/* Step List */}
-                            <ul className="space-y-6">
-                                {[
-                                    {
-                                        title: 'Assessment',
-                                        desc: 'Understand your app, users, pain points, and goals.',
-                                    },
-                                    {
-                                        title: 'Strategy Design',
-                                        desc: 'Define what to keep, rebuild, or refactor.',
-                                    },
-                                    {
-                                        title: 'Modernization Execution',
-                                        desc: 'Implement code, UI, and infrastructure upgrades.',
-                                    },
-                                    {
-                                        title: 'Testing & Optimization',
-                                        desc: 'Ensure flawless performance and security.',
-                                    },
-                                    {
-                                        title: 'Handoff + Training',
-                                        desc: 'Empower your team to take full control post-launch.',
-                                    },
-                                ].map((step, idx) => (
-                                    <li key={idx} className="flex items-start gap-4">
-                                        <div className="w-8 h-8 rounded-full border-2 border-red-600 text-red-500 font-bold flex items-center justify-center">
-                                            {idx + 1}
-                                        </div>
-                                        <div>
-                                            <p className="font-semibold">{step.title}</p>
-                                            <p className="text-sm text-gray-400">{step.desc}</p>
-                                        </div>
-                                    </li>
-                                ))}
-                            </ul>
                         </div>
+
+                        {/* Steps with SVG Icons */}
+                        {[
+                            [redone, "Assessment", "Understand your app, users, pain points, and goals."],
+                            [redtwo, "Strategy Design", "Define what to keep, rebuild, or refactor."],
+                            [redthree, "Modernization Execution", "Implement code, UI, and infrastructure upgrades."],
+                            [redfour, "Testing & Optimization", "Ensure flawless performance and security."],
+                            [redfive, "Handoff + Training", "Empower your team to take full control post-launch."],
+                        ].map(([icon, title, desc]) => (
+                            <div key={title} className="flex items-start gap-4">
+                                {/* Step SVG Icon */}
+                                <img src={icon} alt={title} className="w-[64px] h-[64px] mt-1" />
+                                {/* Step Text */}
+                                <div>
+                                    <h3 className="font-semibold text-[24px] text-white">{title}</h3>
+                                    <p className="text-gray-400 text-[16px]">{desc}</p>
+                                </div>
+                            </div>
+                        ))}
                     </div>
+
                 </div>
             </div>
-            <div className="text-white px-4 sm:px-8 lg:px-20 py-16 bg-black">
-                <div className="max-w-7xl mx-auto">
+            <div className="bg-black px-6 md:px-20 py-16 text-white">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-                    {/* Heading */}
-                    <h2 className="text-4xl font-extrabold mb-4">
-                        Outdated to <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">Outstanding</span>
-                    </h2>
-                    <p className="text-gray-300 mb-12 text-sm max-w-2xl">
-                        We helped modernize their data-sharing platform, improving scalability, tightening security, and reducing cloud costs by 35%.
-                    </p>
-
-                    {/* Cards Grid */}
-                    <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
-
-                        {/* Left Highlighted Card */}
-                        <div className="border-2 border-blue-500 p-6 bg-gradient-to-b from-[#151718] to-[#202224] flex items-center justify-center min-h-[200px]">
-                            <h3 className="text-2xl font-bold leading-snug">
-                                How We <br />
-                                <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">Transformed X's</span> <br />
-                                Legacy App
-                            </h3>
+                    {/* Column 1: Top Card */}
+                    <div className="bg-[#333740] rounded-xl p-6 flex items-center justify-center h-[240px] col-span-1">
+                        <div>
+                            <h2 className="text-3xl font-bold leading-tight mb-2">
+                                How We <span className="bg-gradient-to-r from-white to-purple-500 text-transparent bg-clip-text">Transformed</span><br />
+                                X's Legacy App
+                            </h2>
                         </div>
-
-                        {/* Right Card: Thursday */}
-                        <div className="bg-gradient-to-b from-[#1f1926] to-[#161122] p-6 rounded-md flex flex-col justify-between">
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Thursday</h3>
-                                <p className="text-sm text-gray-300">
-                                    We enhanced this dating app’s UX and backend to support real-time events and location-based user matching.
-                                </p>
-                            </div>
-                            <div className="mt-6 text-sm text-white flex items-center gap-2">
-                                <span className="text-white">KNOW MORE</span>
-                                {/* Ellipse + Arrow */}
-                                <div className="relative w-[56px] h-[56px]" style={{ marginLeft: "-15px" }}>
-                                    <img src={Ellipse} alt="ellipse" className="w-full h-full" />
-                                    {/* Arrow centered inside ellipse */}
-                                    <span className="absolute inset-0 flex items-center justify-center text-white text-xl" style={{ marginLeft: "-15px" }}>
-                                        <img src={arrow} alt="arrow" className="w-[11.5px] h-[20px]" />
-                                    </span>
-                                </div>
-                            </div>
-                            <img src={Thursday} alt="Gener8 App" className="w-24 object-contain" />
-                        </div>
-
-                        {/* Gener8 Card */}
-                        <div className="bg-gradient-to-b from-[#1a1a1a] to-[#131313] p-6 rounded-md flex flex-col justify-between">
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Gener8</h3>
-                                <p className="text-sm text-gray-300">
-                                    Built a secure system enabling users to control their data and earn rewards by sharing it with brands.
-                                </p>
-                            </div>
-                            <div className="mt-6 flex items-end justify-between">
-                                <div className="text-sm text-white flex items-center gap-2">
-                                    <span className="text-white">KNOW MORE</span>
-                                    {/* Ellipse + Arrow */}
-                                    <div className="relative w-[56px] h-[56px]" style={{ marginLeft: "-15px" }}>
-                                        <img src={Ellipse} alt="ellipse" className="w-full h-full" />
-                                        {/* Arrow centered inside ellipse */}
-                                        <span className="absolute inset-0 flex items-center justify-center text-white text-xl" style={{ marginLeft: "-15px" }}>
-                                            <img src={arrow} alt="arrow" className="w-[11.5px] h-[20px]" />
-                                        </span>
-                                    </div>
-                                </div>
-                                <img src={Gener8} alt="Gener8 App" className="w-24 object-contain" />
-                            </div>
-                        </div>
-
-                        {/* Mindful Chef Card */}
-                        <div className="bg-gradient-to-b from-[#13131d] to-[#0f1018] p-6 rounded-md flex flex-col justify-between">
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Mindful Chef</h3>
-                                <p className="text-sm text-gray-300">
-                                    A healthy meal delivery platform we optimized for performance, user experience, and seamless subscription management.
-                                </p>
-                            </div>
-                            <div className="mt-6 flex items-end justify-between">
-                                <div className="text-sm text-white flex items-center gap-2">
-                                    <span className="text-white">KNOW MORE</span>
-                                    {/* Ellipse + Arrow */}
-                                    <div className="relative w-[56px] h-[56px]" style={{ marginLeft: "-15px" }}>
-                                        <img src={Ellipse} alt="ellipse" className="w-full h-full" />
-                                        {/* Arrow centered inside ellipse */}
-                                        <span className="absolute inset-0 flex items-center justify-center text-white text-xl" style={{ marginLeft: "-15px" }}>
-                                            <img src={arrow} alt="arrow" className="w-[11.5px] h-[20px]" />
-                                        </span>
-                                    </div>
-                                </div>
-                                <img src={MindfulChef} alt="Mindful Chef App" className="w-24 object-contain" />
-                            </div>
-                        </div>
-
                     </div>
+
+                    {/* Column 2 & 3 merged: Top Right Wide Card */}
+                    <div className="bg-gradient-to-r from-[#00000000] to-[#8D128F] rounded-xl p-6 flex items-center justify-between h-[240px] col-span-2">
+                        <div className="max-w-[60%]">
+                            <h3 className="text-xl font-semibold mb-2">Thursday</h3>
+                            <p className="text-sm text-gray-300 mb-4">
+                                We enhanced this dating app’s UX and backend to support real-time events and location-based user matching.
+                            </p>
+                            <button className="text-sm font-medium flex items-center gap-2 group">
+                                KNOW MORE
+                                <span className="text-white group-hover:translate-x-1 transition">&#8594;</span>
+                            </button>
+                        </div>
+                        <img
+                            src="/images/thursday.png"
+                            alt="Thursday"
+                            className="w-40 h-auto"
+                        />
+                    </div>
+
+                    {/* Bottom Left Card (under left narrow one) */}
+                    <div className="bg-gradient-to-b from-[#000000] to-[#1a1a1a] rounded-xl p-6 h-[300px] relative overflow-hidden col-span-1">
+                        <h3 className="text-xl font-semibold mb-2">Gener8</h3>
+                        <p className="text-sm text-gray-300 mb-4">
+                            Built a secure system enabling users to control their data and earn rewards by sharing it with brands.
+                        </p>
+                        <button className="text-sm font-medium flex items-center gap-2 group">
+                            KNOW MORE
+                            <span className="text-white group-hover:translate-x-1 transition">&#8594;</span>
+                        </button>
+                        <img
+                            src="/images/gener8.png"
+                            alt="Gener8"
+                            className="absolute bottom-[-10px] right-[-10px] w-40 h-auto"
+                        />
+                    </div>
+
+                    {/* Bottom Right Card (under wide one, right aligned) */}
+                    <div className="bg-gradient-to-b from-[#000000] to-[#1a1a1a] rounded-xl p-6 h-[300px] relative overflow-hidden col-span-2">
+                        <h3 className="text-xl font-semibold mb-2">Mindful Chef</h3>
+                        <p className="text-sm text-gray-300 mb-4 max-w-[70%]">
+                            A healthy meal delivery platform we optimized for performance, user experience, and seamless subscription management.
+                        </p>
+                        <button className="text-sm font-medium flex items-center gap-2 group">
+                            KNOW MORE
+                            <span className="text-white group-hover:translate-x-1 transition">&#8594;</span>
+                        </button>
+                        <img
+                            src="/images/mindfulchef.png"
+                            alt="Mindful Chef"
+                            className="absolute bottom-[-10px] right-[-10px] w-40 h-auto"
+                        />
+                    </div>
+
                 </div>
             </div>
             <ClientExperience></ClientExperience>

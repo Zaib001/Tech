@@ -38,16 +38,16 @@ export default function ApplicationIntegration() {
                 <div className="relative z-10 pt-60 pb-20 px-4 sm:px-6 lg:px-8" style={{ marginTop: "100px" }}>
                     <div className="max-w-7xl mx-auto">
                         <div className="max-w-2xl">
-                            <h2 className="text-white text-4xl md:text-5xl lg:text-6xl font-normal mb-1">
+                            <h2 className="text-white text-[56px] md:text-5xl lg:text-6xl font-normal mb-1">
                                 <img
                                     src={application}
                                     alt="Company"
                                 />
                             </h2>
-                            <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-8">
+                            <h2 className="text-white text-3xl md:text-[56px] lg:text-5xl font-bold mb-8">
                                 Integration
                             </h2>
-                            <p className="text-white text-base md:text-lg leading-relaxed max-w-xl">
+                            <p className="text-white text-base md:text-[20px] leading-relaxed max-w-xl">
                                 We unify your apps, data, and systems into one <br></br> seamless, intelligent ecosystem  fast, secure, and <br></br>scalable.
                             </p>
                         </div>
@@ -60,7 +60,7 @@ export default function ApplicationIntegration() {
                     <div className="space-y-6">
                         <div>
                             <h2 className="text-[48px] font-extrabold mb-2">
-                                <span className="text-white">Integration That <br></br>Powers Real Efficiency</span>
+                                <span className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] bg-clip-text text-transparent">Integration That <br></br>Powers Real Efficiency</span>
                             </h2>
                         </div>
 
@@ -88,11 +88,11 @@ export default function ApplicationIntegration() {
                     </div>
 
                     {/* Right Image */}
-                    <div className="rounded-xl overflow-hidden">
+                    <div className="rounded-xl overflow-hidden" style={{ marginTop: "20px", marginLeft: "200px" }}>
                         <img
                             src={davemorgan}
                             alt="Team Discussion"
-                            className="w-full h-full object-cover rounded-l-sm"
+                            className="w-[447px] h-[325px] object-cover rounded-l-sm"
                         />
                     </div>
                 </div>
@@ -102,7 +102,7 @@ export default function ApplicationIntegration() {
                 <div className="mb-28">
                     <h2 className="text-4xl sm:text-5xl font-bold leading-tight">
                         Disconnected systems create friction.<br />
-                        <span className="text-white opacity-90">We help you sync, automate, and scale.</span>
+                        <span className="bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)] bg-clip-text text-transparent">We help you sync, automate, and scale.</span>
                     </h2>
                 </div>
 
@@ -110,14 +110,14 @@ export default function ApplicationIntegration() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
                     {/* Left Side Cards */}
                     <div className="space-y-6">
-                        <div className="bg-[#1E1E1E] rounded-xl shadow-md px-6 pr-[75px] h-[245px] flex flex-col justify-between">
+                        <div className="bg-[#22252B] rounded-xl shadow-md px-6 pr-[75px] h-[245px] flex flex-col justify-between">
                             <h3 className="text-[24px] font-semibold mt-[20px]">Break Down Data Silos</h3>
                             <p className="text-gray-300 text-[16px] mb-[60px]">
                                 Integrate departments, tools, and platforms to create a unified, real-time view of your business operations.
                             </p>
                         </div>
 
-                        <div className="bg-[#1E1E1E] rounded-xl shadow-md px-6 pr-[75px] h-[245px] flex flex-col justify-between">
+                        <div className="bg-[#22252B] rounded-xl shadow-md px-6 pr-[75px] h-[245px] flex flex-col justify-between">
                             <h3 className="text-[24px] font-semibold mt-[20px]">Streamline Workflows</h3>
                             <p className="text-gray-300 text-[16px] mb-[60px]">
                                 Reduce manual effort by automating routine tasks and creating seamless interactions between systems.
@@ -136,13 +136,13 @@ export default function ApplicationIntegration() {
 
                     {/* Right Side Cards */}
                     <div className="space-y-6">
-                        <div className="bg-[#1E1E1E] rounded-xl shadow-md px-6 pr-[75px] h-[245px] flex flex-col justify-between">
+                        <div className="bg-[#22252B] rounded-xl shadow-md px-6 pr-[75px] h-[245px] flex flex-col justify-between">
                             <h3 className="text-[24px] font-semibold mt-[20px]">Break Down Data Silos</h3>
                             <p className="text-gray-300 text-[16px] mb-[60px]">
                                 Integrate departments, tools, and platforms to create a unified, real-time view of your business operations.
                             </p>
                         </div>
-                        <div className="bg-[#1E1E1E] rounded-xl shadow-md px-6 pr-[75px] h-[245px] flex flex-col justify-between">
+                        <div className="bg-[#22252B] rounded-xl shadow-md px-6 pr-[75px] h-[245px] flex flex-col justify-between">
                             <h3 className="text-[24px] font-semibold mt-[20px]">Streamline Workflows</h3>
                             <p className="text-gray-300 text-[16px] mb-[60px]">
                                 Reduce manual effort by automating routine tasks and creating seamless interactions between systems.
@@ -155,7 +155,7 @@ export default function ApplicationIntegration() {
             <div className="px-[80px] py-16 text-white">
                 {/* Heading Section */}
                 <div className="text-center mb-[70px]">
-                    <h2 className="text-[48px] font-extrabold">Our Integration Expertise</h2>
+                    <h2 className="text-[48px] font-extrabold"><span className="bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)] bg-clip-text text-transparent">Our Integration Expertise</span></h2>
                     <p className="text-gray-300 mt-4 text-[20px]">
                         Expertly Engineered to Connect It All
                     </p>
@@ -203,8 +203,7 @@ export default function ApplicationIntegration() {
                     {/* Heading */}
                     <div className="mb-12">
                         <h2 className="text-[48px] font-extrabold leading-snug">
-                            Real-<span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">World</span> Integration<br />
-                            Use Cases <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">We Deliver</span>
+                            <span className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] bg-clip-text text-transparent">Real-World Integration <br></br>Use Cases We Deliver</span>
                         </h2>
                         <p className="text-gray-300 mt-4 text-[20px] max-w-xl">
                             From business apps to devices, we seamlessly connect the tools that drive your operations.
@@ -271,6 +270,93 @@ export default function ApplicationIntegration() {
                     </div>
                 </div>
             </div>
+            <div className="bg-black text-white px-4 sm:px-8 lg:px-20 py-20">
+                <div className="grid md:grid-cols-2 gap-12 items-start">
+                    {/* Left Side: Heading + Steps 1-3 */}
+                    <div>
+                        {/* Heading */}
+                        <h2 className="text-[48px] font-bold mb-4 leading-snug">
+                            <span className="bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)] bg-clip-text text-transparent">
+                                Integration Done Right:<br />The HPIT Way
+                            </span>
+                        </h2>
+                        <p className="text-gray-300 text-[20px] mb-12">
+                            Secure, seamless, and scalable — our process ensures <br></br>nothing breaks as everything connects.
+                        </p>
+
+                        {/* Steps 1–3 */}
+                        <div className="space-y-12 relative mt-[130px]">
+                            {/* Vertical Dotted Line */}
+                            <div className="absolute left-[31px] top-[32px] bottom-0 w-0.5 border-l border-dotted border-red-500 z-0"></div>
+
+                            {[1, 2, 3].map((num, idx) => {
+                                const titles = [
+                                    'Requirement Analysis',
+                                    'Integration Blueprint',
+                                    'Development & Testing',
+                                ];
+                                const descriptions = [
+                                    'Understand your systems, gaps, and business goals.',
+                                    'Design secure APIs, connectors, and flow architecture.',
+                                    'Build, test, and validate every integration point.',
+                                ];
+
+                                return (
+                                    <div key={num} className="flex items-start relative z-10" style={{ marginTop: "100px" }}>
+                                        <div className="flex-shrink-0 w-16 h-16 rounded-full border-2 border-red-500 flex items-center justify-center text-white text-xl font-semibold bg-black z-10">
+                                            {num}
+                                        </div>
+                                        <div className="ml-6">
+                                            <h3 className="text-[24px] font-semibold">{titles[idx]}</h3>
+                                            <p className="text-gray-400 text-[16px] mt-1">{descriptions[idx]}</p>
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+
+                    {/* Right Side: Image + Steps 4–5 */}
+                    <div className="flex flex-col items-center">
+                        <img
+                            src={pix84}
+                            alt="Integration Visual"
+                            className="rounded-lg w-[577px] h-[419px] mb-12"
+                        />
+
+                        {/* Steps 4–5 */}
+                        {/* Steps 4–5 */}
+                        {/* Steps 4–5 */}
+                        <div className="space-y-12 relative w-full max-w-md" style={{ marginTop: "-30px" ,marginLeft:"-120px"}}>
+                            {/* Vertical Dotted Line (fixed top offset) */}
+                            <div className="absolute left-[30px] top-[100px] bottom-0 w-0.5 border-l border-dotted border-red-500 z-0"></div>
+
+                            {[4, 5].map((num, idx) => {
+                                const titles = ['Deployment & Monitoring', 'Ongoing Support'];
+                                const descriptions = [
+                                    'Deploy with alerts, logs, and performance dashboards.',
+                                    'We stay with you to troubleshoot, scale, or update.',
+                                ];
+
+                                return (
+                                    <div key={num} className="flex items-start relative z-10" style={{ marginTop: "80px" }}>
+                                        <div className="flex-shrink-0 w-16 h-16 rounded-full border-2 border-red-500 flex items-center justify-center text-white text-xl font-semibold bg-black z-16">
+                                            {num}
+                                        </div>
+                                        <div className="ml-6">
+                                            <h3 className="text-lg font-semibold">{titles[idx]}</h3>
+                                            <p className="text-gray-400 text-sm mt-1">{descriptions[idx]}</p>
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
             <ClientExperience></ClientExperience>
         </div>
     );

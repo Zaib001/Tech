@@ -3,6 +3,10 @@ import { Link, useLocation } from "react-router-dom";
 import { Search, Globe, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import hamburger from "../svg/Vector (5).svg"
+import search from "../svg/Vector (6).svg";
+import web from "../svg/Group (3).svg";
+import cross from "../svg/close-line-icon (1).svg"
 
 const navigationItems = [
   { name: "Company", href: "/company" },
@@ -27,7 +31,7 @@ export default function Header() {
                 key={item.name}
                 to={item.href}
                 className={cn(
-                  "text-sm font-medium transition-all duration-200 relative group",
+                  "text-[16px] font-medium transition-all duration-200 relative group",
                   location.pathname === item.href
                     ? "text-white"
                     : "text-gray-300 hover:text-white",
@@ -45,37 +49,34 @@ export default function Header() {
           </nav>
 
           {/* Right side icons - search, web, and hamburger */}
-          <div className="ml-auto flex items-center space-x-4">
-            <Button
-              variant="ghost"
-              size="icon"
-              className="text-gray-300 hover:text-white hover:bg-white/10 transition-colors"
-            >
-              <Search className="h-5 w-5" />
-              <span className="sr-only">Search</span>
-            </Button>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="text-gray-300 hover:text-white hover:bg-white/10 transition-colors"
-            >
-              <Globe className="h-5 w-5" />
-              <span className="sr-only">Language</span>
-            </Button>
-            <Button
-              variant="ghost"
-              size="icon"
+
+
+          <div className="ml-auto flex items-center space-x-8">
+            {/* Search Icon */}
+            <img
+              src={search} // Replace with your actual search icon path
+              alt="Search"
+              className="h-5 w-5 cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => console.log("Search clicked")}
+            />
+
+            {/* Language Icon */}
+            <img
+              src={web} // Replace with your actual globe icon path
+              alt="Language"
+              className="h-5 w-5 cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => console.log("Language clicked")}
+            />
+
+            {/* Menu Toggle Icon */}
+            <img
+              src={isMobileMenuOpen ? cross : hamburger} // Toggle icons
+              alt="Toggle menu"
+              className="h-6 w-6 cursor-pointer hover:opacity-80 transition-opacity"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-gray-300 hover:text-white hover:bg-white/10"
-            >
-              {isMobileMenuOpen ? (
-                <X className="h-6 w-6" />
-              ) : (
-                <Menu className="h-6 w-6" />
-              )}
-              <span className="sr-only">Toggle menu</span>
-            </Button>
+            />
           </div>
+
         </div>
 
         {/* Mobile Navigation */}

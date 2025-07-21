@@ -25,18 +25,19 @@ export default function Joinus() {
             className="text-white py-20 px-4 sm:px-6 lg:px-20 flex flex-col lg:flex-row justify-between items-center gap-10 bg-no-repeat bg-center"
             style={{
                 backgroundImage: `url(${joinusImg})`,
-                backgroundSize: '100% auto',
+                backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center',
             }}
+
         >
             {/* Left Content */}
             <div className="lg:w-1/2" style={{ marginLeft: "40px" }}>
-                <h2 className="text-4xl font-bold mb-2">
-                    Join <span className="text-indigo-300">Us</span>
+                <h2 className="text-[44px] font-bold mb-2">
+                    Join <span className="bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)] bg-clip-text text-transparent">Us</span>
                 </h2>
-                <h3 className="text-xl font-semibold mb-6">Build the Future With Purpose</h3>
-                <p className="text-gray-300 mb-6 max-w-xl leading-relaxed">
+                <h3 className="text-[20px] font-semibold mb-6">Build the Future With Purpose</h3>
+                <p className="text-gray-300-[16px] mb-6 max-w-xl leading-relaxed">
                     At HPIT, we’re a mission-driven team advancing innovation <br></br> and national progress.
                     We welcome passionate individuals experienced or new ready to grow, lead, and make a
                     real impact through meaningful work.

@@ -79,14 +79,14 @@ export default function CloudOperation() {
                 <div className="relative z-10 pt-60 pb-20 px-4 sm:px-6 lg:px-8" style={{ marginTop: "60px" }}>
                     <div className="max-w-7xl mx-auto">
                         <div className="max-w-2xl">
-                            <h2 className="text-white text-4xl md:text-5xl lg:text-6xl font-normal mb-1">
+                            <h2 className="text-white text-[56px] md:text-5xl lg:text-6xl font-normal mb-1">
                                 <img
                                     src={cloud}
                                     alt="Company"
                                 />
                             </h2>
                             <br></br>
-                            <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-8">
+                            <h2 className="text-white text-3xl md:text-[56px] lg:text-5xl font-bold mb-8">
                                 Operation
                             </h2>
                             <p className="text-white text-base md:text-lg leading-relaxed max-w-xl">
@@ -101,8 +101,8 @@ export default function CloudOperation() {
                     {/* Left Text Content */}
                     <div className="space-y-6">
                         <div>
-                            <h2 className="text-[46px] font-extrabold mb-2">
-                                <span className="text-white">Operate with Confidence in the Cloud.</span>
+                            <h2 className="text-[48px] font-extrabold mb-2">
+                                <span className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] text-transparent bg-clip-text">Operate with Confidence in the Cloud.</span>
                             </h2>
                         </div>
 
@@ -129,11 +129,11 @@ export default function CloudOperation() {
                     </div>
 
                     {/* Right Image */}
-                    <div className="rounded-xl overflow-hidden" style={{ marginTop: "60px" }}>
+                    <div className="rounded-xl overflow-hidden" style={{ marginTop: "20px", marginLeft: "200px" }}>
                         <img
                             src={pix15}
                             alt="Team Discussion"
-                            className="w-full h-full object-cover rounded-l-sm"
+                            className="w-[513px] h-[342px] object-cover rounded-l-sm"
                         />
                     </div>
                 </div>
@@ -142,9 +142,7 @@ export default function CloudOperation() {
                 {/* Heading */}
                 <h2 className="text-[56px] sm:text-[48px] font-extrabold leading-tight mb-16">
                     Why <span className="text-white">Cloud</span>{' '}
-                    <span className="text-[#A970FF]">Operations Matter</span>
-                    <br />
-                    <span className="text-[#A970FF]">More Than Ever</span>
+                    <span className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] bg-clip-text text-transparent">Operations Matter<br></br> More Than Ever</span>
                 </h2>
 
                 {/* Grid Section */}
@@ -185,7 +183,7 @@ export default function CloudOperation() {
             <div className="py-20 px-6 sm:px-8 lg:px-20 text-white" style={{ marginLeft: "40px", marginRight: "40px" }}>
                 {/* Heading */}
                 <h2 className="text-[72px] sm:text-[48px] font-extrabold leading-tight mb-4">
-                    Our <span className="text-[#A970FF]">Cloud Operations</span><br></br> Services
+                    Our <span className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] text-transparent bg-clip-text">Cloud Operations</span><br></br> Services
                 </h2>
                 <p className="text-gray-400 text-[20px] mb-16">
                     Modernizing every layer from interface <br></br> to infrastructure.
@@ -196,7 +194,7 @@ export default function CloudOperation() {
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className="bg-[#131313] border border-[#2C2C2C] p-6 rounded-xl hover:shadow-lg transition-all"
+                            className="bg-[#111215] border border-[#2C2C2C] p-6 rounded-xl hover:shadow-lg transition-all"
                         >
                             <div className="mb-6">
                                 <img src={service.icon} alt={service.title} className="w-[64px] h-[64px]" />
@@ -212,8 +210,8 @@ export default function CloudOperation() {
                     {/* Left Side */}
                     <div>
                         <h2 className="text-[48px] sm:text-4xl font-extrabold mb-6 leading-tight">
-                            Tools <span className="bg-gradient-to-r from-white to-purple-400 text-transparent bg-clip-text">& Technologies</span><br />
-                            We Use
+                             <span className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] text-transparent bg-clip-text">Tools & Technologies We Use</span>
+                            
                         </h2>
                         <p className="text-gray-400 text-[20px] mb-8">
                             We use cutting-edge frameworks and platforms to ensure top performance.
@@ -290,9 +288,8 @@ export default function CloudOperation() {
                 {/* Heading */}
                 <div className="max-w-5xl mx-auto mb-12" style={{ marginLeft: "80px" }}>
                     <h2 className="text-[48px] sm:text-4xl font-extrabold mb-6 leading-tight">
-                        How We Delivered<br />
-                        <span className="bg-gradient-to-r from-white to-purple-400 text-transparent bg-clip-text">
-                            Impact
+                        <span className="bg-[radial-gradient(425.56%_425.56%_at_50%_50%,_#8076F4_0%,_#FFFFFF_9.96%)] text-transparent bg-clip-text">
+                             How We Delivered <br></br>Impact
                         </span>
                     </h2>
                     <p className="text-gray-400 text-[20px]">

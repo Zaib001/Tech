@@ -16,6 +16,8 @@ import ApplicationTransformation from "./pages/ApplicationTransformation";
 import ApplicationIntegration from "./pages/Applicationintegration";
 import CloudOperation from "./pages/CloudOperation";
 import CloudMigration from "./pages/CloudMigration";
+import CloudManagement from "./pages/CloudManagement";
+import CloudSupport from "./pages/CloudSupport";
 
 const queryClient = new QueryClient();
 
@@ -35,6 +37,8 @@ const App = () => (
               <Route path="/5" element={<ApplicationIntegration />} />
               <Route path="/6" element={<CloudOperation />} />
               <Route path="/7" element={<CloudMigration />} />
+              <Route path="/8" element={<CloudManagement />} />
+              <Route path="/9" element={<CloudSupport />} />
               <Route path="/" element={<Company />} />
               <Route
                 path="/capabilities"
