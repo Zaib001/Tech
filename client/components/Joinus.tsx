@@ -22,10 +22,9 @@ export default function Joinus() {
     };
     return (
         <div
-            className="text-white py-20 px-4 sm:px-6 lg:px-20 flex flex-col lg:flex-row justify-between items-center gap-10 bg-no-repeat bg-center"
+            className="text-white py-10 px-4 sm:px-6 lg:px-20 flex flex-col lg:flex-row justify-between items-center gap-10 bg-no-repeat bg-center"
             style={{
                 backgroundImage: `url(${joinusImg})`,
-                backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center',
             }}

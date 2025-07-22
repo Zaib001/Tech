@@ -13,11 +13,13 @@ import NotFound from "./pages/NotFound";
 import ApplicationMigration from "./pages/ApplicationMigration";
 import ApplicationDevelopment from "./pages/ApplicationDevelopment";
 import ApplicationTransformation from "./pages/ApplicationTransformation";
-import ApplicationIntegration from "./pages/Applicationintegration";
+import ApplicationIntegration from "./pages/ApplicationIntegration";
 import CloudOperation from "./pages/CloudOperation";
 import CloudMigration from "./pages/CloudMigration";
 import CloudManagement from "./pages/CloudManagement";
 import CloudSupport from "./pages/CloudSupport";
+import CloudTransformation from "./pages/CloudTransformation";
+import CloudSecurity from "./pages/CloudSecurity";
 
 const queryClient = new QueryClient();
 
@@ -39,6 +41,8 @@ const App = () => (
               <Route path="/7" element={<CloudMigration />} />
               <Route path="/8" element={<CloudManagement />} />
               <Route path="/9" element={<CloudSupport />} />
+              <Route path="/10" element={<CloudTransformation />} />
+              <Route path="/11" element={<CloudSecurity/>}/>
               <Route path="/" element={<Company />} />
               <Route
                 path="/capabilities"
