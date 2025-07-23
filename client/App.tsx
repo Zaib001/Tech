@@ -20,6 +20,8 @@ import CloudManagement from "./pages/CloudManagement";
 import CloudSupport from "./pages/CloudSupport";
 import CloudTransformation from "./pages/CloudTransformation";
 import CloudSecurity from "./pages/CloudSecurity";
+import ZeroThrust from "./pages/ZeroThrust";
+import CyberTransformation from "./pages/CyberTransformation";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +35,7 @@ const App = () => (
           <Header />
           <main className="flex-1">
             <Routes>
+              <Route path="/" element={<Company />} />
               <Route path="/2" element={<ApplicationMigration />} />
               <Route path="/3" element={<ApplicationDevelopment />} />
               <Route path="/4" element={<ApplicationTransformation />} />
@@ -42,8 +45,9 @@ const App = () => (
               <Route path="/8" element={<CloudManagement />} />
               <Route path="/9" element={<CloudSupport />} />
               <Route path="/10" element={<CloudTransformation />} />
-              <Route path="/11" element={<CloudSecurity/>}/>
-              <Route path="/" element={<Company />} />
+              <Route path="/11" element={<CloudSecurity />} />
+              <Route path="/12" element={<ZeroThrust />} />
+              <Route path="/13" element={<CyberTransformation />} />
               <Route
                 path="/capabilities"
                 element={

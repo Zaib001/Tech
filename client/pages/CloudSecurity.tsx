@@ -205,7 +205,7 @@ export default function CloudSecurity() {
                 {/* Cards */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
                     {/* Card 1 */}
-                    <div className="bg-[#111215] rounded-xl p-6 space-y-3 shadow-lg">
+                    <div className="bg-[#111215] rounded-xl p-6 space-y-3 shadow-lg border border-[#444955]">
                         <img src={icon1} alt="Assess Icon" className="w-[64px] h-[64px]" />
                         <h3 className="text-[22px] font-semibold">Assess</h3>
                         <p className="text-gray-400 text-[16px]">
@@ -214,7 +214,7 @@ export default function CloudSecurity() {
                     </div>
 
                     {/* Card 2 */}
-                    <div className="bg-[#111215] rounded-xl p-6 space-y-3 shadow-lg">
+                    <div className="bg-[#111215] rounded-xl p-6 space-y-3 shadow-lg border border-[#444955] ">
                         <img src={icon2} alt="Secure Icon" className="w-[64px] h-[64px]" />
                         <h3 className="text-[22px] font-semibold">Secure</h3>
                         <p className="text-gray-400 text-[16px]">
@@ -223,7 +223,7 @@ export default function CloudSecurity() {
                     </div>
 
                     {/* Card 3 */}
-                    <div className="bg-[#111215] rounded-xl p-6 space-y-3 shadow-lg">
+                    <div className="bg-[#111215] rounded-xl p-6 space-y-3 shadow-lg border border-[#444955]">
                         <img src={icon3} alt="Detect & Respond Icon" className="w-[64px] h-[64px]" />
                         <h3 className="text-[22px] font-semibold">Detect & Respond</h3>
                         <p className="text-gray-400 text-[16px]">
@@ -232,7 +232,7 @@ export default function CloudSecurity() {
                     </div>
 
                     {/* Card 4 */}
-                    <div className="bg-[#111215] rounded-xl p-6 space-y-3 shadow-lg">
+                    <div className="bg-[#111215] rounded-xl p-6 space-y-3 shadow-lg border border-[#444955]">
                         <img src={icon4} alt="Audit & Improve Icon" className="w-[64px] h-[64px]" />
                         <h3 className="text-[22px] font-semibold">Audit & Improve</h3>
                         <p className="text-gray-400 text-[16px]">
