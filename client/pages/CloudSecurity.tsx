@@ -293,8 +293,6 @@ export default function CloudSecurity() {
                     </div>
                 </div>
             </div>
-
-
             <div className="w-full bg-black text-white py-16 px-6 md:px-12">
                 {/* Heading */}
                 <div className="max-w-5xl mx-auto mb-12" style={{ marginLeft: "80px" }}>

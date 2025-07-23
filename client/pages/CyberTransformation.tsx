@@ -9,12 +9,17 @@ import icon1 from "../svg/one.svg"
 import icon2 from "../svg/two.svg"
 import icon3 from "../svg/three.svg"
 import icon4 from "../svg/four.svg"
+import christine from "../Images/Pexels Photo by MART  PRODUCTION.png";
+import christine2 from "../Images/Pexels Photo by Christina Morillo new.png"
+import sixtypercent from "../svg/sixtypercent.svg";
+import thirtypercent from "../svg/thirty.svg";
+import line from "../svg/Line 30 (1).svg";
 
 
 export default function CyberTransformation() {
 
     return (
-        <div className="min-h-screen flex flex-col bg-black">
+        <div className="min-h-screen bg-black">
             {/* Hero Section */}
             <div
                 className="min-h-screen bg-cover bg-center bg-no-repeat relative"
@@ -22,7 +27,7 @@ export default function CyberTransformation() {
                     backgroundImage: `url(${negartive})`,
                 }}
             >
-                <div className="relative z-10 pt-60 pb-20 px-4 sm:px-6 lg:px-8" style={{ marginTop: "45px", marginLeft: "30px" }}>
+                <div className="relative z-10 pt-60 pb-20 px-4 sm:px-6 lg:px-8" style={{ marginTop: "45px", marginLeft: "50px" }}>
                     <div className="max-w-7xl mx-auto">
                         <div className="max-w-2xl">
                             <h2 className="text-white text-4xl md:text-[56px] lg:text-6xl font-normal mb-1">
@@ -31,6 +36,7 @@ export default function CyberTransformation() {
                                     alt="Company"
                                 />
                             </h2>
+                            <br></br>
                             <h2 className="text-white text-3xl md:text-[56px] lg:text-5xl font-bold mb-8">
                                 Transformation
                             </h2>
@@ -85,6 +91,82 @@ export default function CyberTransformation() {
                     </div>
                 </div>
             </div>
+            <div className="bg-black text-white px-6 py-16 max-w-[1440px] mx-auto flex flex-col md:flex-row items-start gap-10" style={{ marginLeft: "50px" }}>
+
+                {/* Left Section */}
+                <div className="w-full md:w-2/5 space-y-6">
+
+                    {/* Heading moved here */}
+                    <h2 className="text-[48px] w-[1200px] font-extrabold leading-snug">
+                        <span className="bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)] text-transparent bg-clip-text">Why Now? The Rising<br />Stakes</span>
+                    </h2>
+
+                    {/* Image */}
+                    <img
+                        src={christine2}
+                        alt="Woman with Laptop"
+                        className="rounded-lg w-[568px] h-[300px] object-cover"
+                    />
+
+                    {/* Stat Bar with SVGs and Dividers */}
+                    <div className="relative w-[510px] border border-[#333740] rounded-md mt-6 flex">
+                        {/* Vertical divider 1 */}
+                        <div className="absolute top-[6px] bottom-[6px] left-1/3 w-px bg-[#333740]" />
+                        {/* Vertical divider 2 */}
+                        <div className="absolute top-[6px] bottom-[6px] left-2/3 w-px bg-[#333740]" />
+
+                        {/* Block 1 */}
+                        <div className="flex-1 text-center px-6 py-[15px]">
+                            <img src={sixtypercent} className="w-[127px] h-[17px] mx-auto" />
+                            <p className="text-[14px] text-gray-400 mt-[5px]">
+                                breaches: cloud misconfig
+                            </p>
+                        </div>
+
+                        {/* Block 2 */}
+                        <div className="flex-1 text-center px-6 py-[15px]">
+                            <img src={thirtypercent} className="w-[127px] h-[17px] mx-auto" />
+                            <p className="text-[14px] text-gray-400 mt-[5px]">
+                                slowdown: legacy security
+                            </p>
+                        </div>
+
+                        {/* Block 3 */}
+                        <div className="flex-1 text-center px-6 py-[15px]">
+                            <p className="text-[14px] text-gray-400 leading-tight mt-[10px]">
+                                Fines rising: data breaches
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Right Section */}
+                <div className="w-full md:w-3/5 space-y-6 flex flex-col justify-start mt-0 self-start" style={{ marginTop: "220px", marginLeft: "60px" }}>
+                    <div className="flex items-start gap-3">
+                        <img
+                            src={line}
+                            alt="Vertical Line"
+                            className="w-1 h-14 mt-1"
+                        />
+                        <h3 className="text-gray-300 text-[24px] font-semibold leading-snug">
+                            Cyber Risks Are Evolving,<br />So Should You
+                        </h3>
+                    </div>
+
+                    <h3>
+                        <p className="text-gray-300 text-[18px] font-semibold leading-snug">
+                            Every advancement in technology opens new doors for growth<br></br> but also for
+                            threats. As businesses embrace cloud,<br></br> automation, and remote access,
+                            traditional security models<br></br> fall short. Without cyber transformation,
+                            organizations face <br></br>higher risks, slower progress, and growing regulatory
+                            pressure.
+                        </p>
+                    </h3>
+
+                </div>
+            </div>
+
+
             <div className="bg-black text-white py-16 px-4 sm:px-8 lg:px-20">
                 {/* Heading */}
                 <div className="text-center mb-12">
@@ -133,6 +215,69 @@ export default function CyberTransformation() {
                             Security aligned with business goals, across teams
                         </p>
                     </div>
+                </div>
+            </div>
+            <div className="bg-[#111215] text-white px-6 py-10 rounded-lg max-w-[1220px] mx-auto flex flex-col md:flex-row gap-8 border border-purple-800">
+                {/* Left Section - 40% */}
+                <div className="w-full md:w-2/5 flex flex-col justify-start">
+                    <div className="space-y-6">
+                        <h2 className="text-[48px]  min-w-[1220px] font-bold mt-0">
+                            <span className="bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)] text-transparent bg-clip-text">
+                                Quick Self–Check
+                            </span>
+                        </h2>
+                        <p className="text-gray-300 text-[28px]">How Ready Is Your Organization?</p>
+                        <ul className="space-y-4 text-sm">
+                            <li className="flex text-[20px] items-start gap-3">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="w-4 h-4 mt-1 text-red-500"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    strokeWidth="2"
+                                >
+                                    <circle cx="12" cy="12" r="6" />
+                                </svg>
+                                <span>Do you have real-time threat<br></br> <br></br> detection?</span>
+                            </li>
+                            <li className="flex text-[20px] items-start gap-3">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="w-4 h-4 mt-1 text-red-500"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    strokeWidth="2"
+                                >
+                                    <circle cx="12" cy="12" r="6" />
+                                </svg>
+                                <span>Is security embedded in your development<br></br><br></br> lifecycle?</span>
+                            </li>
+                            <li className="flex text-[20px] items-start gap-3">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="w-4 h-4 mt-1 text-red-500"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    strokeWidth="2"
+                                >
+                                    <circle cx="12" cy="12" r="6" />
+                                </svg>
+                                <span>Are you confident in your compliance <br></br><br></br>reporting?</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                {/* Right Section - 60% */}
+                <div className="w-full md:w-3/5" style={{ marginLeft: "120px" }}>
+                    <img
+                        src={christine}
+                        alt="Team Discussion"
+                        className="rounded-lg w-[594px] h-[453px] object-cover"
+                    />
                 </div>
             </div>
             <div className="text-white px-4 sm:px-8 lg:px-20 py-16">

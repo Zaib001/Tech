@@ -20,8 +20,10 @@ import CloudManagement from "./pages/CloudManagement";
 import CloudSupport from "./pages/CloudSupport";
 import CloudTransformation from "./pages/CloudTransformation";
 import CloudSecurity from "./pages/CloudSecurity";
-import ZeroThrust from "./pages/ZeroThrust";
+import ZeroThrust from "./pages/ZeroTrust";
 import CyberTransformation from "./pages/CyberTransformation";
+import AdvanceThreat from "./pages/AdvanceThreat";
+import ThreatIntelligence from "./pages/ThreatIntelligence";
 
 const queryClient = new QueryClient();
 
@@ -48,6 +50,8 @@ const App = () => (
               <Route path="/11" element={<CloudSecurity />} />
               <Route path="/12" element={<ZeroThrust />} />
               <Route path="/13" element={<CyberTransformation />} />
+              <Route path="/14" element={<AdvanceThreat/>}/>
+              <Route path="/15" element={<ThreatIntelligence/>}/>
               <Route
                 path="/capabilities"
                 element={

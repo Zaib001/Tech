@@ -12,6 +12,9 @@ import sv5 from "../svg/svg5.svg"
 import sv6 from "../svg/svg6.svg"
 import fauxals from "../Images/unsplash_oyXis2kALVg.png";
 import centerImage from "../Images/Pixabay-3119879.png";
+import christine from "../Images/Pexels Photo by Christina Morillo.png";
+import sixtypercent from "../svg/sixtypercent.svg";
+import thirtypercent from "../svg/thirty.svg"
 
 
 export default function ZeroThrust() {
@@ -25,7 +28,7 @@ export default function ZeroThrust() {
                     backgroundImage: `url(${unplash})`,
                 }}
             >
-                <div className="relative z-10 pt-60 pb-20 px-4 sm:px-6 lg:px-8" style={{ marginTop: "45px", marginLeft: "30px" }}>
+                <div className="relative z-10 pt-60 pb-20 px-4 sm:px-6 lg:px-8" style={{ marginTop: "45px", marginLeft: "50px" }}>
                     <div className="max-w-7xl mx-auto">
                         <div className="max-w-2xl">
                             <h2 className="text-white text-4xl md:text-[56px] lg:text-6xl font-normal mb-1">
@@ -34,6 +37,7 @@ export default function ZeroThrust() {
                                     alt="Company"
                                 />
                             </h2>
+                            <br></br>
                             <h2 className="text-white text-3xl md:text-[56px] lg:text-5xl font-bold mb-8">
                                 Trust
                             </h2>
@@ -88,7 +92,7 @@ export default function ZeroThrust() {
                     </div>
                 </div>
             </div>
-            <div className="bg-black text-white py-20 px-6 lg:px-24">
+            <div className="bg-black text-white py-20 px-6 lg:px-24" style={{marginLeft:"-30px"}}>
                 <div className="flex flex-col lg:flex-row gap-12">
                     {/* Left Column */}
                     <div className="lg:w-3/5  flex flex-col justify-between">
@@ -166,7 +170,7 @@ export default function ZeroThrust() {
                     </div>
                 </div>
             </div>
-            <div className="text-white px-4 sm:px-8 lg:px-20 py-16" style={{ marginTop: "160px" }}>
+            <div className="text-white px-4 sm:px-8 lg:px-20 py-16" style={{ marginTop: "160px",marginLeft:"-40px" }}>
                 <div className="max-w-7xl mx-auto grid lg:grid-cols-2 items-start relative" style={{marginLeft:"25px"}}>
 
                     {/* Left Image with Heading on top */}
@@ -217,7 +221,7 @@ export default function ZeroThrust() {
                     </div>
                 </div>
             </div>
-            <div className="text-white px-4 sm:px-10 py-16 flex flex-col items-center">
+            <div className="text-white px-4 sm:px-10 py-16 flex flex-col items-center" style={{marginLeft:"-60px"}}>
                 <h2 className="text-3xl sm:text-[48px] font-extrabold text-center mb-4 text-white">
                     <span
                         className="bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)] bg-clip-text text-transparent"
@@ -278,7 +282,7 @@ const Card = ({ title, description }) => {
 
     return (
         <div
-            className="w-[360px] h-[240px] rounded-md border border-[#444955] bg-[#111215] relative"
+            className="w-[380px] h-[240px] rounded-md border border-[#444955] bg-[#111215] relative"
             style={{
                 borderWidth: "1.5px",
                 borderStyle: "dashed",
