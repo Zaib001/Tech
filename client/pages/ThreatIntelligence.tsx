@@ -89,7 +89,7 @@ export default function ThreatIntelligence() {
                     </div>
                 </div>
             </div>
-            <div className="bg-black text-white px-6 py-16 sm:px-12 lg:px-[120px]" style={{ marginLeft: "-45px" }}>
+            <div className="bg-black text-white px-6 py-16 sm:px-12 lg:px-[120px]">
                 {/* Heading Section */}
                 <div className="max-w-6xl">
                     <h2 className="text-[32px] sm:text-[48px] font-extrabold leading-tight">
