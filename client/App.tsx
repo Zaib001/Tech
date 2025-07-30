@@ -26,6 +26,7 @@ import AdvanceThreat from "./pages/AdvanceThreat";
 import ThreatIntelligence from "./pages/ThreatIntelligence";
 import Quantumsecurity from "./pages/QuantumSecurity";
 import CyberRegilliance from "./pages/CyberRegilliance";
+import ArtificialIntelligence from "./pages/ArtificialIntelligence";
 
 const queryClient = new QueryClient();
 
@@ -56,6 +57,7 @@ const App = () => (
               <Route path="/15" element={<ThreatIntelligence/>}/>
               <Route path="/16" element={<Quantumsecurity/>}/>
               <Route path="/17" element={<CyberRegilliance/>}/>
+              <Route path="/18" element={<ArtificialIntelligence/>}/>
               <Route
                 path="/capabilities"
                 element={
