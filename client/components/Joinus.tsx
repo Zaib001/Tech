@@ -33,7 +33,7 @@ export default function Joinus() {
 
         >
             {/* Left Content */}
-            <div className="lg:w-1/2" style={{marginLeft:"35px"}}>
+            <div className="lg:w-1/2 sm:px-6 lg:px-10">
                 <h2 className="text-[44px] font-bold mb-2">
                     Join <span className="bg-[radial-gradient(254%_254%_at_50%_50%,_#A49CFD_0%,_#FFFFFF_9.99%)] bg-clip-text text-transparent">Us</span>
                 </h2>

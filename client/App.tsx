@@ -27,6 +27,8 @@ import ThreatIntelligence from "./pages/ThreatIntelligence";
 import Quantumsecurity from "./pages/QuantumSecurity";
 import CyberRegilliance from "./pages/CyberRegilliance";
 import ArtificialIntelligence from "./pages/ArtificialIntelligence";
+import QuantumComputing from "./pages/QuantumComputing";
+import DigitalTwinTechnology from "./pages/DigitalTwinTechnology";
 
 const queryClient = new QueryClient();
 
@@ -36,7 +38,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <div className="flex flex-col min-h-screen">
+        <div>
           <Header />
           <main className="flex-1">
             <Routes>
@@ -58,6 +60,8 @@ const App = () => (
               <Route path="/16" element={<Quantumsecurity/>}/>
               <Route path="/17" element={<CyberRegilliance/>}/>
               <Route path="/18" element={<ArtificialIntelligence/>}/>
+              <Route path="/19" element={<QuantumComputing/>}/>
+              <Route path="/20" element={<DigitalTwinTechnology/>}/>
               <Route
                 path="/capabilities"
                 element={

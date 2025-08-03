@@ -33,7 +33,7 @@ export default function Company() {
           backgroundImage: `url(${backgroundImage})`,
         }}
       >
-        <div className="relative z-10 pt-60 pb-20 px-4 sm:px-6 lg:px-8" style={{ marginTop: "-10px" }}>
+        <div className="relative z-10 pt-60 pb-20 px-4">
           <div className="max-w-7xl mx-auto">
             <div className="max-w-2xl">
               <h2 className="text-white text-[56px] md:text-5xl lg:text-6xl font-normal mb-1">
@@ -54,7 +54,7 @@ export default function Company() {
           </div>
         </div>
       </div>
-      <div className="text-white px-4 sm:px-8 lg:px-20 py-16">
+      <div className="text-white px-4 py-24">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Text Content */}
           <div className="space-y-6">
@@ -84,7 +84,7 @@ export default function Company() {
           </div>
 
           {/* Right Image */}
-          <div className="rounded-xl overflow-hidden" style={{ marginTop: "120px", marginLeft: "60px" }}>
+          <div className="rounded-xl overflow-hidden lg:px-8">
             <img
               src={journey2}
               alt="Team Discussion"
@@ -93,7 +93,7 @@ export default function Company() {
           </div>
         </div>
       </div>
-      <div className="text-white px-6 lg:px-20 py-20 bg-black">
+      <div className="text-white px-6 py-20 bg-black">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Title + Image */}
           <div>
@@ -170,11 +170,11 @@ and achieve lasting success.`,
           </div>
         </div>
       </div>
-      <div className="text-white px-4 sm:px-8 lg:px-20 py-16">
+      <div className="text-white px-4 sm:px-8 lg:px-24 py-16">
         {/* Main Parent Grid */}
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-center lg:px-2">
           {/* Left Section - Title + Content */}
-          <div className="flex flex-col h-full justify-between" style={{ marginLeft: "40px" }}>
+          <div className="flex flex-col h-full justify-between" >
             {/* Top - Journey Heading */}
             <div>
               <h2 className="text-5xl font-extrabold mb-2" style={{ marginTop: '40px' }}>
