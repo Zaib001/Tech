@@ -29,6 +29,9 @@ import CyberRegilliance from "./pages/CyberRegilliance";
 import ArtificialIntelligence from "./pages/ArtificialIntelligence";
 import QuantumComputing from "./pages/QuantumComputing";
 import DigitalTwinTechnology from "./pages/DigitalTwinTechnology";
+import DigitalWorkplace from "./NewPages/DigitalWorkplace";
+import WirelessAndMobilityServices from "./NewPages/WirelessAndMobilityServices";
+import Temp from "./NewPages/temp";
 
 const queryClient = new QueryClient();
 
@@ -38,7 +41,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <div>
+        <div className="min-h-screen flex flex-col bg-black">
           <Header />
           <main className="flex-1">
             <Routes>
@@ -62,6 +65,9 @@ const App = () => (
               <Route path="/18" element={<ArtificialIntelligence/>}/>
               <Route path="/19" element={<QuantumComputing/>}/>
               <Route path="/20" element={<DigitalTwinTechnology/>}/>
+              <Route path="/29" element={<DigitalWorkplace/>}/>
+              <Route path="/30" element={<WirelessAndMobilityServices/>}/>
+              <Route path="/temp" element={<Temp />} />
               <Route
                 path="/capabilities"
                 element={
