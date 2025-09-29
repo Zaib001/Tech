@@ -3,22 +3,22 @@ import { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Plus, X } from "lucide-react";
-import backgroundImage from "../images/frame1.png";
-import team1 from "../images/Pexels Photo by Daniel Xavier.jpg";
-import team2 from "../images/Pexels Photo by Italo Melo.jpg";
-import team3 from "../images/Pexels Photo by Guilherme  Almeida.jpg";
-import team4 from "../images/Pexels Photo by Andrea Piacquadio.jpg";
-import arrow from "../svg/arrow.svg";
-import journey1 from "../Images/journey1.jpg";
-import journey2 from "../Images/journey2.jpg";
-import journey3 from "../Images/journey3.jpg";
-import astronaut from "../Images/Astronaut.jpg";
-import frame from "../svg/Frame75.svg";
-import g2m from "../svg/g2m.svg";
-import Group from "../svg/Group.svg";
-import Ellipse from "../svg/Ellipse 10.svg";
-import company from "../svg/Company.svg";
-import narrow from "../svg/Arrow 1.svg";
+import backgroundImage from "@/Images/frame1.png";
+import team1 from "@/Images/Pexels Photo by Daniel Xavier.jpg";
+import team2 from "@/Images/Pexels Photo by Italo Melo.jpg";
+import team3 from "@/Images/Pexels Photo by Guilherme  Almeida.jpg";
+import team4 from "@/Images/Pexels Photo by Andrea Piacquadio.jpg";
+import arrow from "@/svg/arrow.svg";
+import journey1 from "@/Images/journey1.jpg";
+import journey2 from "@/Images/journey2.jpg";
+import journey3 from "@/Images/journey3.jpg";
+import astronaut from "@/Images/Astronaut.jpg";
+import frame from "@/svg/Frame75.svg";
+import g2m from "@/svg/g2m.svg";
+import Group from "@/svg/Group.svg";
+import Ellipse from "@/svg/Ellipse 10.svg";
+import company from "@/svg/Company.svg";
+import narrow from "@/svg/Arrow 1.svg";
 
 // Reusable Scroll Animation Wrapper
 const FadeInSection = ({ children, delay = 0 }) => {
