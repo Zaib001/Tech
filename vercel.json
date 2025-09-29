@@ -1,8 +1,12 @@
 {
   "outputDirectory": "dist/spa",
-  "routes": [
+   "routes": [
     {
-      "src": "/.*",
+      "src": "/assets/.*",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/(.*)",
       "dest": "/index.html"
     }
   ]
