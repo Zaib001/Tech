@@ -2,6 +2,7 @@
   "builds": [
     { "src": "dist/spa/**", "use": "@vercel/static" }
   ],
+    "outputDirectory": "dist/spa",
   "routes": [
     {
       "src": "/.*",
